@@ -4,6 +4,14 @@ This is an introductory set of notes on JAX and XLA with a focus on machine lear
 
 These notes assume no prior knowledge of machine learning or accelerator programming. The goal is to focus on practical programming concepts, performance techniques, and the "why" behind JAX's design.
 
+## Prerequisites
+
+- **Python**: Comfortable with functions, classes, loops, and basic data structures
+- **NumPy**: Familiarity with array operations is helpful — JAX's `jnp` API mirrors NumPy closely. If you need a refresher, see the [NumPy quickstart](https://numpy.org/doc/stable/user/quickstart.html)
+- **Linear algebra**: Basic understanding of vectors, matrices, and dot products will help with later chapters, but is not strictly required
+
+No prior machine learning or GPU programming experience is assumed.
+
 ## Table of Contents
 
 1. [Just-In-Time Compilation](01%20Just-In-Time%20Compilation.ipynb): Speed up Python functions using JAX’s `jit` compiler and the XLA backend. Learn when JIT helps and how to get the most out of it.
