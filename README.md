@@ -30,6 +30,10 @@ No prior machine learning or GPU programming experience is assumed.
 
 8. [JIT Control Flow and Logic](08%20JIT%20Control%20Flow%20and%20Logic.ipynb): Write conditionals and loops that run efficiently in JIT-compiled functions. Use JAX’s control flow tools to avoid retracing and unrolling.
 
+## Puzzles
+
+The [puzzles/](puzzles/) folder contains 60 hands-on JAX exercises from [JaxTon](https://github.com/vopani/jaxton) by [@vopani](https://github.com/vopani), organized into 6 sets of 10 (beginner to intermediate). Each set has an exercises notebook and a solutions notebook.
+
 ## Interactivity
 
 Each chapter in these notes is presented as a Jupyter notebook.
@@ -56,6 +60,10 @@ Then, launch JupyterLab (the notebook interface) with `uv run --with jupyter jup
 ├── 06 Distributed Computing.ipynb
 ├── 07 Stateful Computation.ipynb
 ├── 08 JIT Control Flow and Logic.ipynb
+├── puzzles/
+│   ├── 01-06 exercise and solution notebooks
+│   ├── LICENSE
+│   └── README.md
 ├── README.md
 ├── pyproject.toml
 └── uv.lock
