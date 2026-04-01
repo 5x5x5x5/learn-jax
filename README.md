@@ -6,9 +6,9 @@ These notes assume no prior knowledge of machine learning or accelerator program
 
 ## Prerequisites
 
-- **Python**: Comfortable with functions, classes, loops, and basic data structures
-- **NumPy**: Familiarity with array operations is helpful — JAX's `jnp` API mirrors NumPy closely. If you need a refresher, see the [NumPy quickstart](https://numpy.org/doc/stable/user/quickstart.html)
-- **Linear algebra**: Basic understanding of vectors, matrices, and dot products will help with later chapters, but is not strictly required
+- **[Python Essentials](prerequisites/00a%20Python%20Essentials.ipynb)**: Functions as first-class objects, decorators, unpacking, NamedTuples, and classes
+- **[NumPy Essentials](prerequisites/00b%20NumPy%20Essentials.ipynb)**: Array creation, indexing, broadcasting, reductions, and linear algebra operations
+- **[Linear Algebra Essentials](prerequisites/00c%20Linear%20Algebra%20Essentials.ipynb)**: Vectors, matrices, dot products, and the neural network connection
 
 No prior machine learning or GPU programming experience is assumed.
 
@@ -44,6 +44,10 @@ Then, launch JupyterLab (the notebook interface) with `uv run --with jupyter jup
 ## File Structure
 
 ```
+├── prerequisites/
+│   ├── 00a Python Essentials.ipynb
+│   ├── 00b NumPy Essentials.ipynb
+│   └── 00c Linear Algebra Essentials.ipynb
 ├── 01 Just-In-Time Compilation.ipynb
 ├── 02 Automatic Vectorization.ipynb
 ├── 03 Automatic Differentiation.ipynb
