@@ -32,7 +32,7 @@ No prior machine learning or GPU programming experience is assumed.
 
 ## Puzzles
 
-The [puzzles/](puzzles/) folder contains 60 hands-on JAX exercises from [JaxTon](https://github.com/vopani/jaxton) by [@vopani](https://github.com/vopani), organized into 6 sets of 10 (beginner to intermediate). Each set has an exercises notebook and a solutions notebook.
+The [puzzles/](puzzles/) folder contains 100 hands-on JAX exercises organized into 10 sets of 10 (beginner to expert). Sets 1-6 are from [JaxTon](https://github.com/vopani/jaxton) by [@vopani](https://github.com/vopani). Sets 7-10 complete the series with automatic vectorization, pytrees, neural networks, and a capstone project. Each set has an exercises notebook and a solutions notebook.
 
 ## Interactivity
 
